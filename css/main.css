@@ -4,7 +4,8 @@ body {
 
 /* Home Page Style */
 .ww-home-page {
-  background: url("https://raw.githubusercontent.com/revanna7226/revanna7226.github.io/main/images/home-img.jpg") no-repeat center center;
+  background: url("https://raw.githubusercontent.com/revanna7226/revanna7226.github.io/main/images/home-img.jpg")
+    no-repeat center center;
   background-size: cover;
   background-position: 70%;
   height: 100vh;
@@ -230,4 +231,26 @@ body {
 
 .btn-outline-primary:hover {
   color: #fff;
+}
+
+/*
+Revanna's styles
+*/
+.google-maps {
+  position: relative;
+  padding-bottom: 75%; /* This is the aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  top: 0;
+  left: 0;
+  width: 100% !important;
+}
+.music-float {
+  position: fixed;
+  width: 100px;
+  height: 60px;
+  bottom: 10px;
+  right: 20px;
 }

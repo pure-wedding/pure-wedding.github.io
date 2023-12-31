@@ -71,26 +71,6 @@
     <link href="css/aos.css?ver=1.1.0" rel="stylesheet" />
     <link href="css/ekko-lightbox.css?ver=1.1.0" rel="stylesheet" />
     <link href="css/main.css?ver=1.1.0" rel="stylesheet" />
-    <style>
-      .google-maps {
-        position: relative;
-        padding-bottom: 75%;
-        height: 0;
-        overflow: hidden;
-      }
-      .google-maps iframe {
-        top: 0;
-        left: 0;
-        width: 100% !important;
-      }
-      .float{
-        position:fixed;
-        width:290px;
-        height:40px;
-        bottom:30px;
-        right:30px;
-      }
-    </style>
     <noscript>
       <style type="text/css">
         [data-aos] {
@@ -189,8 +169,11 @@
               </div>
             </div>
           </nav>
-          <div class="float">
-            <audio controls>
+          <div class="music-float">
+            <button id="btn-music-play" class="btn btn-primary" data-toggle="tooltip" data-placement="left" title="Tooltip on left">
+              <i class="fa fa-play music-icon">&nbsp;Play</i>
+            </button>
+            <audio id="myAudio">
               <source src="/1335.mp3" type="audio/mp3">
             Your browser does not support the audio element.
             </audio>
@@ -371,13 +354,6 @@
               </div>
               <div class="col-md-5 col-sm-12">
                 <div class="my-3">
-<!--                   <img
-                    class="img-fluid"
-                    src="images/reception.jpg"
-                    alt="Reception"
-                    data-aos="fade-up-right"
-                    data-aos-duration="1000"
-                  /> -->
                   <div class="google-maps">
                     <iframe
                       src="https://maps.google.com/maps?q=Chowdeshwari%20Kalyana%20Mantapa%20Kollegala&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
