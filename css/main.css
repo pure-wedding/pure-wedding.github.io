@@ -232,25 +232,3 @@ body {
 .btn-outline-primary:hover {
   color: #fff;
 }
-
-/*
-Revanna's styles
-*/
-.google-maps {
-  position: relative;
-  padding-bottom: 75%; /* This is the aspect ratio */
-  height: 0;
-  overflow: hidden;
-}
-.google-maps iframe {
-  top: 0;
-  left: 0;
-  width: 100% !important;
-}
-.music-float {
-  position: fixed;
-  width: 100px;
-  height: 60px;
-  bottom: 10px;
-  right: 20px;
-}
