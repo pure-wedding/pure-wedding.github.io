@@ -74,7 +74,7 @@
     <style>
       .google-maps {
         position: relative;
-        padding-bottom: 75%;
+        padding-bottom: 75%; // This is the aspect ratio
         height: 0;
         overflow: hidden;
       }
@@ -106,6 +106,7 @@
     <div class="page-content">
       <div class="div">
         <div class="ww-home-page" id="home">
+          
           <div
             class="ww-wedding-announcement d-flex align-items-center justify-content-start"
           >
@@ -183,11 +184,19 @@
                       >Gallery</a
                     >
                   </li>
+                  
+                  <li class="nav-item">
+                    <a href="#timer" class="nav-link smooth-scoll">Timer</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#contact-us" class="nav-link smooth-scoll">Contact</a>
+                  </li>
                   <li class="nav-item">
                     <a class="nav-link smooth-scroll" href="#rsvp">RSVP</a>
                   </li>
                 </ul>
               </div>
+              
             </div>
           </nav>
           <div class="music-float">
@@ -375,6 +384,13 @@
               </div>
               <div class="col-md-5 col-sm-12">
                 <div class="my-3">
+<!--                   <img
+                    class="img-fluid"
+                    src="images/reception.jpg"
+                    alt="Reception"
+                    data-aos="fade-up-right"
+                    data-aos-duration="1000"
+                  /> -->
                   <div class="google-maps">
                     <iframe
                       src="https://maps.google.com/maps?q=Chowdeshwari%20Kalyana%20Mantapa%20Kollegala&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
@@ -793,7 +809,7 @@
           </div>
         </div>
         
-        <div class="ww-section">
+        <div class="ww-section" id="timer">
           <div class="container">
               <h2
                 class="h1 text-center pb-3 ww-title"
@@ -808,7 +824,7 @@
           </div>
 
         </div>
-        <div class="ww-section ww-rsvp-detail text-white" id="rsvp">
+        <div class="ww-section ww-rsvp-detail text-white" id="contact-us">
           <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
             <div class="col text-center">
               <h2
@@ -820,8 +836,8 @@
               </h2>
               <p style="text-shadow: 2px; font-size: large;">Dear All,<br>
                 We cordially invite you to join us on the most special day of our lives, our wedding day! <br>
-                Date and Time: 20th May 2024 at 09:00 am,<br>
-                Venue: <a href="https://maps.app.goo.gl/GjKLXHubkRhDJXhX9" style="text-decoration: none;" target="_blank" rel="noopener noreferrer">Chowdeshwari Kalyana Mantapa, Kollegala.</a> <br>
+                <i class="far fa-calendar-alt" aria-hidden="true"></i> : 20th May 2024 at 09:00 am,<br>
+                <i class="fas fa-map-marker-alt" aria-hidden="true"></i> : <a style="color: white;" href="https://maps.app.goo.gl/GjKLXHubkRhDJXhX9" style="text-decoration: none;" target="_blank" rel="noopener noreferrer">Chowdeshwari Kalyana Mantapa, Kollegala.</a> <br>
                 We can't wait to celebrate this joyous occasion with our cherished friends and family. <br>
                 Your presence will mean the world to us as we embark on this beautiful journey together. <br>
                 Thank you All, <br>
@@ -829,20 +845,29 @@
               </p>
               <h3 style="text-decoration: underline;">Call us for any queries</h3>
               <p>
-                <a href="tel:+918722637226"><i class="fa fa-mobile" aria-hidden="true">&nbsp;+91-8722637226&nbsp;Revanna</i></a> <br>
-                <a href="tel:+918550066269"><i class="fa fa-mobile" aria-hidden="true">&nbsp;+91-8550066269&nbsp;Santhu (Bride's Brother)</i></a>
+                <i class="fa fa-phone-square" aria-hidden="true"></i> : <a style="color: white;" href="tel:+918722637226">&nbsp;+91-8722637226&nbsp;Revanna</a> <br>
+                <i class="fa fa-phone-square" aria-hidden="true"></i> : <a style="color: white;" href="tel:+918550066269">&nbsp;+91-8550066269&nbsp;Santhu (Bride's Brother)</a>
               </p>
             </div>
-            <div class="row ww-rsvp-form">
-              <div class="col-md-10">
-                <div class="card-body">
-                  <div class="google-maps">
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSczMQwgkVsEQPdP330UVBjA8oylt-k9rMFL00c_F_P-WWPiNQ/viewform?embedded=true" width="700" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                  </div>
-                </div>
-              </div>
+          </div>
+        </div>
+        <div class="ww-section" id="rsvp">
+          <div class="container">
+            <div class="col text-center">
+              <h2
+                class="h1 text-center pb-3 ww-title"
+                data-aos="zoom-in-down"
+                data-aos-duration="1000"
+              >
+              What are you waiting for?
+              </h2>
+              <p>
+                I would love it if you could write a heartfelt wish for us on our wedding day. Your words mean a lot, and it would add to the joy of the celebration.
+              </p>
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSczMQwgkVsEQPdP330UVBjA8oylt-k9rMFL00c_F_P-WWPiNQ/viewform" width="800" height="1250" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
           </div>
+        </div>
         </div>
         <div class="ww-footer bg-light">
           <div class="container text-center py-4">
