@@ -4,8 +4,7 @@ body {
 
 /* Home Page Style */
 .ww-home-page {
-  background: url("https://raw.githubusercontent.com/revanna7226/revanna7226.github.io/main/images/home-img.jpg")
-    no-repeat center center;
+  background: url("../images/home-img.jpg") no-repeat center center;
   background-size: cover;
   background-position: 70%;
   height: 100vh;
